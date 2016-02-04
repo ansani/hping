@@ -12,9 +12,6 @@ You must execute something like that:
 --toolchain=arm-linux-androideabi-clang3.6 --platform=android-21 --install-dir=./androidToolchain
 ```
 
-* Then I suggest to use cc.sh script downloaded from https://dl.dropboxusercontent.com/u/23869279/Files/cc.sh 
-(refer to this website http://forum.xda-developers.com/showthread.php?t=2723240 if you need more help).
-
-PS: I copied a cc.sh script on my repo so you can just change NDK and NDKTC path so you can use directly
+* I added cc.sh script downloaded from [here](https://dl.dropboxusercontent.com/u/23869279/Files/cc.sh) to speedup Android toolchain configuration. You just need to change **NDK** and **NDKTC** path. (refer to [this](http://forum.xda-developers.com/showthread.php?t=2723240) website  if you need more help).
 
 * Last you must execute ./compile_for_android.sh command. This generate a statical linked HPING3 file.
