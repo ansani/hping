@@ -6,8 +6,11 @@ This repo contains all dependancies amd all libraries need to build HPING3 for A
 * First of all you need a working Android toolchain. 
 By default I use CLANG-3.6. 
 You must execute something like that:
+
+```
 /opt/android-ndk-r10e/build/tools/make-standalone-toolchain.sh \
 --toolchain=arm-linux-androideabi-clang3.6 --platform=android-21 --install-dir=./androidToolchain
+```
 
 * Then I suggest to use cc.sh script downloaded from https://dl.dropboxusercontent.com/u/23869279/Files/cc.sh 
 (refer to this website http://forum.xda-developers.com/showthread.php?t=2723240 if you need more help).
