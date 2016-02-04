@@ -16,7 +16,7 @@ fi
 CC=${CC:=cc}
 
 echo build byteorder.c...
-$CC byteorder.c -o byteorder || exit 1
+gcc byteorder.c -o byteorder || exit 1
 
 INSTALL_MANPATH=`echo $MANPATH|cut -f1 -d:`
 if [ "$INSTALL_MANPATH" = "" ]; then
